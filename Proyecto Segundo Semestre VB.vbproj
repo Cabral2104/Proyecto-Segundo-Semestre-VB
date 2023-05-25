@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7CD2225-83F3-479E-B045-61A920CF7FE9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Proyecto_Segundo_Semestre_VB.My.MyApplication</StartupObject>
+    <RootNamespace>Proyecto_Segundo_Semestre_VB</RootNamespace>
+    <AssemblyName>Proyecto Segundo Semestre VB</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Proyecto Segundo Semestre VB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Proyecto Segundo Semestre VB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aire5.Designer.vb">
+      <DependentUpon>Aire5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Aire5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllPrecios.vb" />
+    <Compile Include="Comentarios.vb" />
+    <Compile Include="Crear Cuenta.Designer.vb">
+      <DependentUpon>Crear Cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Crear Cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuerdas2.Designer.vb">
+      <DependentUpon>Cuerdas2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuerdas2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuerdas3.Designer.vb">
+      <DependentUpon>Cuerdas3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuerdas3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuerdas4.Designer.vb">
+      <DependentUpon>Cuerdas4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuerdas4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuerdas5.Designer.vb">
+      <DependentUpon>Cuerdas5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuerdas5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iniciar Sesión.Designer.vb">
+      <DependentUpon>Iniciar Sesión.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Iniciar Sesión.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instrumentos de Cuerdas1.Designer.vb">
+      <DependentUpon>Instrumentos de Cuerdas1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Instrumentos de Cuerdas1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Percusiones1.Designer.vb">
+      <DependentUpon>Percusiones1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Percusiones1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Percusiones2.Designer.vb">
+      <DependentUpon>Percusiones2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Percusiones2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Percusiones3.Designer.vb">
+      <DependentUpon>Percusiones3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Percusiones3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Percusiones4.Designer.vb">
+      <DependentUpon>Percusiones4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Percusiones4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Percusiones5.Designer.vb">
+      <DependentUpon>Percusiones5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Percusiones5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Aire5.resx">
+      <DependentUpon>Aire5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crear Cuenta.resx">
+      <DependentUpon>Crear Cuenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuerdas2.resx">
+      <DependentUpon>Cuerdas2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuerdas3.resx">
+      <DependentUpon>Cuerdas3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuerdas4.resx">
+      <DependentUpon>Cuerdas4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuerdas5.resx">
+      <DependentUpon>Cuerdas5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iniciar Sesión.resx">
+      <DependentUpon>Iniciar Sesión.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrumentos de Cuerdas1.resx">
+      <DependentUpon>Instrumentos de Cuerdas1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Percusiones1.resx">
+      <DependentUpon>Percusiones1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Percusiones2.resx">
+      <DependentUpon>Percusiones2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Percusiones3.resx">
+      <DependentUpon>Percusiones3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Percusiones4.resx">
+      <DependentUpon>Percusiones4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Percusiones5.resx">
+      <DependentUpon>Percusiones5.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gibsonguitarra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taylorguitarra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GElectricaFender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GElectricaIbanez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GEleGibson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GEGibson1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bajo yamaha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bajo Eléctrico Fender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bajo Fender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bajo RedSub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arpa Salvi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arpa Selta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Violonchelo STENTOR STUDENT II.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Violonchelo SINFONIE24 BASIC II.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bateria acustica crush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bateria acustica yamaha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bateria acustica mapex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bateria acustica tama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Batería Eléctrica Yamaha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Batería Eléctrica Roland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timbal Majestic 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timbal Adams 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangulo Charls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangulo XO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bombo Audiotek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trompeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xilófono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acordeón.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flauta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Program.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
